@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMRITA NAYAK Portfolio</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color:#050606;
+    background: #cdc1c1;
+    border: #333 10px solid;
+}
+
+header {
+
+    color:#050404;
+    padding: 20px 0;
+    text-align: left;
+    text-shadow: #fff;
+margin-left: 50px;
+max-width: 100%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+   
+}
+
+header p {
+    font-size: 1.2rem;
+}
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #040404;
+    text-decoration:dashed;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover { 
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+#about .about-container {
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+#about img {
+    width: 350px;
+    border-radius: 0%;
+    margin-right: 20px;
+    height: 400px;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #f4f4f4;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+
+}
+
+#projects .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+    </style>
+</head>
+<body>
+    
+  <p style="background-color: #333;font-size:50px;color:#cdc1c1;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Portfolio</p>
+ 
+  <nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<header>     
+        <div class="header-container">
+            <h5>Hi</h5> 
+            <h1>I'm Amrita Nayak</h1>
+            <h3 style="color:#333">SOFTWARE ENGINEER</h3>
+            <p>A Fresher Student</p>
+        </div>
+ </header>       
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="amritanayak.jfif" alt="Your Image">
+            <p style="text-align: left;">Name:- Amrita Nayak<br> 
+            Job title:- Fresher Student<br>
+        Experience:-NO<br>
+        Address:- Odisha,India
+        Profile:-Web Development<br>
+    Education:- Bachelor in Science<br>
+    Communicative Language:- Hindi,English,Odia,Korean<br>
+    Coding Language Known:- C,C++,Java,HTML,Python,CSS,Javascript<br></p>
+    
+
+        </div>
+        <p style="font-family: 'Times New Roman', Times, serif; font-style: italic ; text-decoration-style:wavy ;font-size: 20px;color: #b97070;"><b>"</b><emp>A passionate, motivated and hardworking individual, eager to apply my knowledge and grow further in the field of technology as well as improvising my techncial skills to enhance my capabilities further more</emp><b>"</b></p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><b>LEADERSHIP</b>
+             <p>Strong leadrership quality<br> to guide my <br>fellow members towards success </p></li>
+            <li><b>PROBLEM MANAGEMENT</b>
+            <p>Can handle and manage <br>problems efficiently </p></li>
+            <li><b>FLEXILBLE</b>
+            <p>Adaptsble personality to<br> accomodate with every situation </p></li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="project1.png" alt="Project 1">
+                <h3>Landing page using HTML & CSS</h3>
+                <p>A standalone webpage to serve specific marketing campaign </p>
+            </div>
+            <div class="project">
+                <img src="project2.png" alt="Project 2">
+                <h3>Calculator using HTML,CSS & Javascript</h3>
+                <p>An innovative calculator with various functionalities </p>
+            </div>
+            <div class="project">
+                <img src="project3.jpeg" alt="Project 2">
+                <h3>Prompt Engineering using Chatgpt & DreamStudio</h3>
+                <p>Showing the future which lies within an AI</p>
+            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume3.pdf" download>Download My Resume (PDF)</a>
+    </section>
+    <section id="contact">
+        <h2 style="text-align: center;">Contact Me</h2>
+        <p>Email: <a href="adbsjkfk47@gmail.com">nayakamrita47@gmail.com</a></p>
+        <p>linkedIn <a href="https://www.linkedin.com/in/amrita-nayak-46437331b">nayakamrita47@gmail.com</a></p>
+        <p>Phone: +91 8260604156</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
